@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ $1 = "uninstall" ]; then
+if [ "$1" = "uninstall" ]; then
   sudo apt remove --purge -y jailsh
   exit
 fi
